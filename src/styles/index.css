@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Lato&display=swap');
+
+:root {
+  --main-font: 'Lato', sans-serif;
+  --secondary-font: 'Bangers', cursive;
+  --txt-color: #957b00;
+  --txt-darker: #665100;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+button {
+  padding: 0.3rem 0.6rem;
+  border: none;
+  font-size: 2rem;
+  font-weight: 800;
+  cursor: pointer;
+  background: none;
+  color: var(--txt-darker);
+}
+
+.controller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--txt-darker);
+}
+
+.controller-txt {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 0 0.5rem;
+}
